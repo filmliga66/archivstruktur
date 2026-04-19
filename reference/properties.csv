@@ -1,0 +1,10 @@
+property,recognized_by_tools,description
+-6dB,true,Dieselbe Tonaufnahme 6 dB leiser aufgenommen
+-12dB,true,Dieselbe Tonaufnahme 12 dB leiser aufgenommen
+bearbeitet,true,Nachbearbeitete Version einer Originaldatei
+DAT,false,Quelle DAT-Kassette (historisch)
+Tonband,false,Quelle Tonband (historisch)
+MC,false,Quelle Musikkassette (historisch)
+LINE,false,Zweiter Aufnahmekanal (historisch)
+LiedNN,false,Lied Nummer NN aus der Gesamtaufnahme extrahiert (historisch)
+AUTO,false,Automatisch ausgesteuert (historisch)
