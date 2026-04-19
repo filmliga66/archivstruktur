@@ -1,0 +1,22 @@
+[
+  {
+    "folder": "Digitalfoto",
+    "description": "Digitalfotos"
+  },
+  {
+    "folder": "Dia",
+    "description": "Dias (analog bzw. digitalisiert)"
+  },
+  {
+    "folder": "Negativ",
+    "description": "Negative (analog bzw. digitalisiert)"
+  },
+  {
+    "folder": "Ton",
+    "description": "Tonaufnahmen"
+  },
+  {
+    "folder": "Video",
+    "description": "Videoaufnahmen"
+  }
+]

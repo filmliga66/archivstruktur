@@ -3,6 +3,26 @@
 Alle bemerkenswerten Änderungen dieser Spezifikation werden hier dokumentiert.
 Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.1.0/).
 
+## [3.1] — 2026-04-19
+
+### Hinzugefügt
+
+- Asset-Ordner `Dia` und `Negativ` auf Ebene 1 wieder zugelassen
+  (revertiert Entfernung aus 3.0). Beschreibung von `Digitalfoto`
+  entsprechend auf reine Digitalfotos eingegrenzt.
+
+### Geändert
+
+- Maschinenlesbare Referenztabellen von CSV auf JSON umgestellt
+  (`clubs.json`, `assets.json`, `properties.json`, `abbreviations.json`),
+  damit Sonderzeichen (Umlaute, kommahaltige Inhalte) eindeutig kodiert sind.
+- Vereinsname `Schützenverein` jetzt mit korrektem `ü` in `clubs.json`
+  hinterlegt (vorher ASCII-Ersatz `Schuetzenverein` im Namensfeld).
+
+### Entfernt
+
+- CSV-Varianten der Referenztabellen (`*.csv` unter `reference/`).
+
 ## [3.0] — 2026-04-18
 
 ### Hinzugefügt
