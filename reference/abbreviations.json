@@ -1,0 +1,18 @@
+[
+  { "abbreviation": "NNJ",   "meaning": "NN Jahre (z. B. 60J)" },
+  { "abbreviation": "FL",    "meaning": "Film-Liga" },
+  { "abbreviation": "GC",    "meaning": "Gemischter Chor" },
+  { "abbreviation": "GS",    "meaning": "Grundschule" },
+  { "abbreviation": "PGR",   "meaning": "Pfarrgemeinderat" },
+  { "abbreviation": "GEB",   "meaning": "Geburtstag" },
+  { "abbreviation": "GV",    "meaning": "Generalversammlung" },
+  { "abbreviation": "SSE",   "meaning": "Seelsorgeeinheit" },
+  { "abbreviation": "KIFE",  "meaning": "Kinderferienprogramm" },
+  { "abbreviation": "KLJB",  "meaning": "Katholischer Landjugendbund" },
+  { "abbreviation": "NT",    "meaning": "Narrentreffen" },
+  { "abbreviation": "ORAT",  "meaning": "Ortschaftsrat" },
+  { "abbreviation": "BMG",   "meaning": "Bürgermeister Gombold" },
+  { "abbreviation": "JUGU",  "meaning": "Jugend-Gruppe" },
+  { "abbreviation": "LW",    "meaning": "Landwirtschaft (bei Personen und Begebenheiten)" },
+  { "abbreviation": "WUERT", "meaning": "Württemberg/Württembergisch" }
+]

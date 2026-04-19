@@ -1,0 +1,11 @@
+[
+  { "property": "-6dB",        "recognized_by_tools": true,  "description": "Dieselbe Tonaufnahme 6 dB leiser aufgenommen" },
+  { "property": "-12dB",       "recognized_by_tools": true,  "description": "Dieselbe Tonaufnahme 12 dB leiser aufgenommen" },
+  { "property": "bearbeitet",  "recognized_by_tools": true,  "description": "Nachbearbeitete Version einer Originaldatei" },
+  { "property": "DAT",         "recognized_by_tools": false, "description": "Quelle DAT-Kassette (historisch)" },
+  { "property": "Tonband",     "recognized_by_tools": false, "description": "Quelle Tonband (historisch)" },
+  { "property": "MC",          "recognized_by_tools": false, "description": "Quelle Musikkassette (historisch)" },
+  { "property": "LINE",        "recognized_by_tools": false, "description": "Zweiter Aufnahmekanal (historisch)" },
+  { "property": "LiedNN",      "recognized_by_tools": false, "description": "Lied Nummer NN aus der Gesamtaufnahme extrahiert (historisch)" },
+  { "property": "AUTO",        "recognized_by_tools": false, "description": "Automatisch ausgesteuert (historisch)" }
+]

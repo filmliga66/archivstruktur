@@ -8,10 +8,10 @@ Ergänzende Materialien:
 
 - [CHANGELOG.md](CHANGELOG.md) — Änderungshistorie dieser Spezifikation
 - [reference/patterns.md](reference/patterns.md) — Reguläre Ausdrücke
-- [reference/clubs.csv](reference/clubs.csv) — Vereine maschinenlesbar
-- [reference/assets.csv](reference/assets.csv) — Asset-Typen maschinenlesbar
-- [reference/properties.csv](reference/properties.csv) — Datei-Eigenschaften
-- [reference/abbreviations.csv](reference/abbreviations.csv) — Abkürzungen
+- [reference/clubs.json](reference/clubs.json) — Vereine maschinenlesbar
+- [reference/assets.json](reference/assets.json) — Asset-Typen maschinenlesbar
+- [reference/properties.json](reference/properties.json) — Datei-Eigenschaften
+- [reference/abbreviations.json](reference/abbreviations.json) — Abkürzungen
 - [examples/archive-tree.md](examples/archive-tree.md) — Beispielbaum
 
 ---
@@ -33,11 +33,13 @@ Das Archiv ist fünfstufig aufgebaut. Jede Ebene hat exakte Namensregeln.
 
 Asset-Ordner auf oberster Ebene. Erlaubt sind genau folgende Namen:
 
-| Name          | Inhalt                          |
-| ------------- | ------------------------------- |
-| `Digitalfoto` | Digitalfotos, digitalisierte Dias und Negative |
-| `Ton`         | Tonaufnahmen                    |
-| `Video`       | Videoaufnahmen                  |
+| Name          | Inhalt                                  |
+| ------------- | --------------------------------------- |
+| `Digitalfoto` | Digitalfotos                            |
+| `Dia`         | Dias (analog bzw. digitalisiert)        |
+| `Negativ`     | Negative (analog bzw. digitalisiert)    |
+| `Ton`         | Tonaufnahmen                            |
+| `Video`       | Videoaufnahmen                          |
 
 Der Name `Ordnerstruktur` ist für lokale Dokumentation reserviert und wird von
 Werkzeugen ignoriert.
@@ -54,7 +56,7 @@ Format: `{Buchstabe}-{Vereinsname}`
 
 Der Buchstabe ist ein Großbuchstabe `[A-Z]`. Leerzeichen im Vereinsnamen werden
 durch `_` ersetzt. Erlaubt sind ausschließlich die folgenden Ordner (siehe auch
-[reference/clubs.csv](reference/clubs.csv)):
+[reference/clubs.json](reference/clubs.json)):
 
 | Ordnername                    | Bedeutung                         |
 | ----------------------------- | --------------------------------- |
@@ -118,7 +120,7 @@ Die Eigenschaft ist optional und wird mit `_` an die laufende Nummer angehängt.
 Mehrere Eigenschaften werden ohne Trennzeichen aneinander gereiht.
 
 Von Werkzeugen wie ligarchivar erkannte Eigenschaften
-(siehe [reference/properties.csv](reference/properties.csv)):
+(siehe [reference/properties.json](reference/properties.json)):
 
 | Eigenschaft   | Bedeutung                                             |
 | ------------- | ----------------------------------------------------- |
@@ -162,7 +164,7 @@ Bildbewertung für `Digitalfoto`:
 ## 10. Abkürzungen
 
 Abkürzungen sind Konstanten und werden großgeschrieben. Siehe auch
-[reference/abbreviations.csv](reference/abbreviations.csv).
+[reference/abbreviations.json](reference/abbreviations.json).
 
 | Abkürzung | Bedeutung                                                     |
 | --------- | ------------------------------------------------------------- |

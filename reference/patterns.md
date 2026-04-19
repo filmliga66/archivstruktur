@@ -49,9 +49,9 @@ Beispiele:
 Diese werden nicht durch die Regex allein geprüft, sondern durch die
 Werkzeug-Logik:
 
-- **Asset-Ordner** auf Ebene 1: Name muss in [assets.csv](assets.csv) stehen.
+- **Asset-Ordner** auf Ebene 1: Name muss in [assets.json](assets.json) stehen.
 - **Jahr-Ordner** auf Ebene 2: 1700 ≤ Jahr ≤ 3000.
-- **Vereins-Ordner** auf Ebene 3: Name muss exakt in [clubs.csv](clubs.csv) stehen.
+- **Vereins-Ordner** auf Ebene 3: Name muss exakt in [clubs.json](clubs.json) stehen.
 - **Event-Ordner**: Vereinsbuchstabe und Jahr müssen zum Pfad passen (Eltern-
   Vereinsordner und Eltern-Jahr-Ordner).
 - **Dateien**: Vereinsbuchstabe und Datum müssen mit dem Event-Ordner

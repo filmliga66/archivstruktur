@@ -1,0 +1,19 @@
+[
+  { "letter": "A", "folder": "A-Albverein",                  "name": "Albverein",                  "notes": "" },
+  { "letter": "C", "folder": "C-Gemischter_Chor",            "name": "Gemischter Chor",            "notes": "" },
+  { "letter": "D", "folder": "D-Dorffest",                   "name": "Dorffest",                   "notes": "Dorfgemeinschaft" },
+  { "letter": "F", "folder": "F-Film-Liga",                  "name": "Film-Liga",                  "notes": "" },
+  { "letter": "G", "folder": "G-Gemeinde",                   "name": "Gemeinde",                   "notes": "" },
+  { "letter": "H", "folder": "H-Hochzeiten",                 "name": "Hochzeiten",                 "notes": "" },
+  { "letter": "K", "folder": "K-Kirche",                     "name": "Kirche",                     "notes": "" },
+  { "letter": "L", "folder": "L-Ledige",                     "name": "Ledige",                     "notes": "" },
+  { "letter": "M", "folder": "M-Musikverein",                "name": "Musikverein",                "notes": "" },
+  { "letter": "N", "folder": "N-Narrenzunft",                "name": "Narrenzunft",                "notes": "" },
+  { "letter": "P", "folder": "P-Personen_und_Begebenheiten", "name": "Personen und Begebenheiten", "notes": "" },
+  { "letter": "R", "folder": "R-Fischerverein",              "name": "Fischerverein",              "notes": "" },
+  { "letter": "S", "folder": "S-Schuetzenverein",            "name": "Schützenverein",             "notes": "" },
+  { "letter": "T", "folder": "T-TSV",                        "name": "TSV",                        "notes": "Skiclub" },
+  { "letter": "V", "folder": "V-Ansichten",                  "name": "Ansichten",                  "notes": "RumVi" },
+  { "letter": "W", "folder": "W-Feuerwehr",                  "name": "Feuerwehr",                  "notes": "" },
+  { "letter": "Z", "folder": "Z-Kegler",                     "name": "Kegler",                     "notes": "" }
+]

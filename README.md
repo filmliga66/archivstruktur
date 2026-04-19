@@ -14,10 +14,10 @@ diese Spezifikation und validieren bestehende Archive gegen sie.
 | [archivstruktur.md](archivstruktur.md)                       | Menschenlesbare Hauptspezifikation             |
 | [CHANGELOG.md](CHANGELOG.md)                                 | Änderungshistorie der Spezifikation            |
 | [reference/patterns.md](reference/patterns.md)               | Reguläre Ausdrücke pro Hierarchie-Ebene        |
-| [reference/clubs.csv](reference/clubs.csv)                   | Vereine (maschinenlesbar)                      |
-| [reference/assets.csv](reference/assets.csv)                 | Asset-Typen (maschinenlesbar)                  |
-| [reference/properties.csv](reference/properties.csv)         | Datei-Eigenschaften (maschinenlesbar)          |
-| [reference/abbreviations.csv](reference/abbreviations.csv)   | Abkürzungen (maschinenlesbar)                  |
+| [reference/clubs.json](reference/clubs.json)                 | Vereine (maschinenlesbar)                      |
+| [reference/assets.json](reference/assets.json)               | Asset-Typen (maschinenlesbar)                  |
+| [reference/properties.json](reference/properties.json)       | Datei-Eigenschaften (maschinenlesbar)          |
+| [reference/abbreviations.json](reference/abbreviations.json) | Abkürzungen (maschinenlesbar)                  |
 | [examples/archive-tree.md](examples/archive-tree.md)         | Beispielhafter Archivbaum                      |
 
 ## Struktur auf einen Blick
@@ -36,9 +36,9 @@ Vollständige Regeln in [archivstruktur.md](archivstruktur.md).
 ## Für Werkzeug-Implementierer
 
 Alle Validierungsregeln lassen sich aus den Regex-Mustern in
-[reference/patterns.md](reference/patterns.md) und den CSV-Tabellen im
-Verzeichnis [reference/](reference/) ableiten. Die CSVs sind UTF-8-kodiert
-und verwenden `,` als Trennzeichen mit Header-Zeile.
+[reference/patterns.md](reference/patterns.md) und den JSON-Tabellen im
+Verzeichnis [reference/](reference/) ableiten. Die JSON-Dateien sind
+UTF-8-kodiert und enthalten auf oberster Ebene ein Array von Objekten.
 
 Referenzimplementierung: [ligarchivar](https://github.com/filmliga66/ligarchivar)
 (siehe `src/backend/FL.LigArchivar.Core/Data/` und
