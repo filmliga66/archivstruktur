@@ -1,0 +1,65 @@
+site_name: Archivstruktur der Film-Liga 66 e.V.
+site_description: Kanonische Definition der Ordner- und Dateistruktur des digitalen Archivs
+site_url: https://filmliga66.github.io/archivstruktur/
+repo_url: https://github.com/filmliga66/archivstruktur
+repo_name: filmliga66/archivstruktur
+edit_uri: edit/main/
+
+theme:
+  name: material
+  language: de
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Auf dunkles Design umschalten
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Auf helles Design umschalten
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.action.edit
+
+nav:
+  - Überblick: README.md
+  - Spezifikation: archivstruktur.md
+  - Referenz:
+      - Reguläre Ausdrücke: reference/patterns.md
+  - Beispiele:
+      - Archivbaum: examples/archive-tree.md
+  - Änderungshistorie: CHANGELOG.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search:
+      lang: de
